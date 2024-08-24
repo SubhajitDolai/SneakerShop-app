@@ -12,10 +12,10 @@ A sleek and modern sneaker shop app built with Flutter. This app features a clea
 
 ## Screenshots
 
-![Intro Page](/assets/screenshots/intro_page.png)
-![Home Page](/assets/screenshots/home_page.png)
-![Cart Page](/assets/screenshots/cart_page.png)
-![Drawer Menu](/assets/screenshots/drawer.png)
+<img src="assets/screenshots/intro_page.png" width="600" alt="Intro Page" />
+<img src="assets/screenshots/home_page.png" width="600" alt="Home Page" />
+<img src="assets/screenshots/cart_page.png" width="600" alt="Cart Page" />
+<img src="assets/screenshots/drawer.png" width="600" alt="Drawer Menu" />
 
 ## Dependencies
 
@@ -35,5 +35,5 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 If you have any questions or feedback, feel free to reach out:
 
-- **Email**: subhajitdolai999.gmail.com
+- **Email**: subhajitdolai999@gmail.com
 - **GitHub**: [SubhajitDolai](https://github.com/SubhajitDolai)
