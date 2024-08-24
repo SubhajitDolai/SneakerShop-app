@@ -4,6 +4,7 @@ class Shoe {
   final String imagePath;
   final String description;
 
+  // constructor
   Shoe({
     required this.name,
     required this.price,

@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.grey[300],
       // appbar
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.grey[300],
       ),
 
       // drawer
@@ -63,31 +63,45 @@ class _HomePageState extends State<HomePage> {
 
                 // list tiles
                 // home
-                const Padding(
-                  padding: EdgeInsets.only(left: 25.0),
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.home_filled,
-                      color: Colors.white,
-                    ),
-                    title: Text(
-                      'Home',
-                      style: TextStyle(color: Colors.white),
+                GestureDetector(
+                  onTap: () {
+                    // pop drawer
+                    Navigator.pop(context);
+                    // go to home page
+                    Navigator.pushNamed(context, '/homepage');
+                  },
+                  child: const Padding(
+                    padding: EdgeInsets.only(left: 25.0),
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.home_filled,
+                        color: Colors.white,
+                      ),
+                      title: Text(
+                        'Home',
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ),
                   ),
                 ),
 
                 // about
-                const Padding(
-                  padding: EdgeInsets.only(left: 25.0),
-                  child: ListTile(
-                    leading: Icon(
-                      Icons.info_outlined,
-                      color: Colors.white,
-                    ),
-                    title: Text(
-                      'About',
-                      style: TextStyle(color: Colors.white),
+                GestureDetector(
+                  onTap: () {
+                    Navigator.pop(context);
+                    Navigator.pushNamed(context, '/aboutpage');
+                  },
+                  child: const Padding(
+                    padding: EdgeInsets.only(left: 25.0),
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.info_outlined,
+                        color: Colors.white,
+                      ),
+                      title: Text(
+                        'About',
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ),
                   ),
                 ),
@@ -95,16 +109,22 @@ class _HomePageState extends State<HomePage> {
             ),
 
             // logout
-            const Padding(
-              padding: EdgeInsets.only(left: 25.0, bottom: 25.0),
-              child: ListTile(
-                leading: Icon(
-                  Icons.logout_outlined,
-                  color: Colors.white,
-                ),
-                title: Text(
-                  'Logout',
-                  style: TextStyle(color: Colors.white),
+            GestureDetector(
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushNamed(context, '/intropage');
+              },
+              child: const Padding(
+                padding: EdgeInsets.only(left: 25.0, bottom: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.logout_outlined,
+                    color: Colors.white,
+                  ),
+                  title: Text(
+                    'Logout',
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
             ),
