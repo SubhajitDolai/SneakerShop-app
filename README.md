@@ -10,6 +10,11 @@ A sleek and modern sneaker shop app built with Flutter. This app features a clea
 - **Drawer Menu**: Access additional app features and settings from the side drawer menu.
 - **Clean & Modern Design**: A visually appealing and user-friendly interface that emphasizes a minimalistic approach.
 
+
+### Download Links
+
+- **Android APK**: [Download APK](https://github.com/SubhajitDolai/SneakerShop-app/releases/tag/v1.0.0)
+
 ## Screenshots
 
 <div style="display: flex; justify-content: space-between;">
