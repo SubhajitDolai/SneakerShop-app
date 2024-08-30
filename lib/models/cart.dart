@@ -13,26 +13,27 @@ class Cart extends ChangeNotifier {
     Shoe(
       name: 'Air Force 1 Low Evo',
       price: '299',
-      description:
-          "Experience heritage with innovation. The Nike Air Force 1 Evo combines classic style with responsive React cushioning.",
+      description: "Experience heritage with innovation.",
       imagePath: 'lib/images/air-force-1-low-evo.png',
     ),
     Shoe(
       name: "Air Force 1 '07 Sky",
       price: '259',
-      description: "You've got the hops and the speed-lace up in shoes that enhance",
+      description:
+          "You've got the hops and the speed-lace up in shoes that enhance",
       imagePath: 'lib/images/air-force-1.png',
     ),
     Shoe(
-      name: "Air Force 1 '07 Panda",
+      name: "Air Force 1 '07",
       price: '129',
-      description: "Playful and bold, the Nike Air Force 1 Shadow doubles up on design with layered details and an exaggerated midsole.",
+      description:
+          "Playful and bold, the Nike Air Force 1 Shadow doubles up on design.",
       imagePath: 'lib/images/air-force-1-panda.png',
     ),
     Shoe(
       name: "Air Force 1 '07",
       price: '199',
-      description: "Classic style meets modern comfort. The Nike Air Force 1 '07 features premium leather, Nike Air cushioning, and timeless design.",
+      description: "Classic style meets modern comfort.",
       imagePath: 'lib/images/air-force-1-white.png',
     ),
     Shoe(
@@ -44,7 +45,8 @@ class Cart extends ChangeNotifier {
     Shoe(
       name: 'Air Max Blue',
       price: '169',
-      description: 'Bouncy cushoning is paired with soft yet supporting form for respponsiveness and smooth heal-to-toe transition',
+      description:
+          'Bouncy cushoning is paired with soft yet supporting form for respponsiveness.',
       imagePath: 'lib/images/air-max-blue.png',
     ),
   ];
